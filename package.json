@@ -1,0 +1,26 @@
+{
+  "name": "solidity-truffle-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xKyran/solidity-truffle-template.git"
+  },
+  "author": "0xkyran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xKyran/solidity-truffle-template/issues"
+  },
+  "homepage": "https://github.com/0xKyran/solidity-truffle-template#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

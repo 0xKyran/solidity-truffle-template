@@ -7,3 +7,4 @@ module.exports = async function(deployer, network, accounts) {
     // Deploy contract
     await deployer.deploy(contract, "ExampleContract")
   }
+  

@@ -64,3 +64,65 @@ Replace <network-name> with the name of the network you want to deploy to (e.g.,
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+<!-- Template for README.md -->
+
+# <contract> Contract
+
+<Short description>
+
+This project is based on the [solidity-truffle-template](https://github.com/0xKyran/solidity-truffle-template) GitHub template.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (recommended version: 14.x.x)
+- Truffle (recommended version: 5.x.x)
+- Solidity (recommended version: 0.8.x)
+
+### Installation
+
+1. Clone the repository:
+
+```shell
+   git clone <repo>
+```
+
+2. Install the dependencies:
+
+```shell
+    npm install
+```
+
+3. Compile the contracts:
+
+```shell
+    npm run compile
+```
+
+4. Run the tests:
+
+```shell
+    truffle test
+```
+
+5. Deploy the contracts to your desired Ethereum network:
+
+```shell
+    npm run migrate --network <network-name>
+```
+> Note: if you omit the --network flag, Truffle will deploy to the development network by default.
+> Replace with the name of the network you want to deploy to (e.g., mainnet, rinkeby, ropsten, or development).
+
+## Contract Details
+
+<contract details>
+
+## Additional Functions
+
+<contract functions + explanation>
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

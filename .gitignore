@@ -109,3 +109,6 @@ secrets.json
 
 # Contract artifacts
 src/abis/
+
+# Package lock file
+package-lock.json

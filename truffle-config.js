@@ -13,7 +13,7 @@ module.exports = {
       provider: function(){
         return new HDWalletProvider(mnemonic, "https://mainnet.infura.io/v3/" + infura_apikey)
       },
-      gasPrice: 50000000000,
+      gasPrice: 50000000000, // change gas price according to market conditions
       network_id: 1
     },
     rinkeby:{ 
@@ -31,19 +31,19 @@ module.exports = {
       network_id: 3
     },    
     development: {
-      host: "127.0.0.1",
-      port: 8545,
-      network_id: "*" // Match any network id
+      host: "127.0.0.1",    // Localhost
+      port: 8545,              // Standard Ganache port
+      network_id: "*"      // Match any network id
     },
   },
   mocha: {
-    reporter: 'eth-gas-reporter'
+    reporter: 'eth-gas-reporter' // Disable for speed enable for gas reporting
   },
   contracts_directory: './src/contracts/',
   contracts_build_directory: './src/abis/',
   compilers: {
     solc: {
-      version: "^0.8.0",
+      version: "^0.8.0", 
       optimizer: {
         enabled: true,
         runs: 200
